@@ -1,4 +1,6 @@
-<?php namespace Mechastorm\LaravelLangGoogleSpreadsheetImporter;
+<?php
+
+namespace Mechastorm\LaravelLangGoogleSpreadsheetImporter;
 
 use Illuminate\Support\ServiceProvider;
 

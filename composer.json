@@ -4,27 +4,28 @@
     "authors": [
         {
             "name": "Shih Oon Liong",
-            "email": "github@mechastorm"
+            "email": "github@mechastorm.com"
         }
     ],
     "require": {
         "php": ">=5.4.0",
-        "mechastorm/google-spreadsheet-exporter": ">=0.1.0",
+        "mechastorm/google-spreadsheet-exporter": "dev-master",
         "illuminate/support": "4.2.*"
     },
     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/asimlqt/php-google-spreadsheet-client"
+        },
         {
             "type": "vcs",
             "url": "https://github.com/mechastorm/google-spreadsheet-exporter"
         }
     ],
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-0": {
             "Mechastorm\\LaravelLangGoogleSpreadsheetImporter\\": "src/"
         }
     },
-    "minimum-stability": "alpha"
+    "minimum-stability": "dev"
 }
