@@ -1,10 +1,15 @@
 {
     "name": "mechastorm/laravel-lang-google-spreadsheet-importer",
-    "description": "",
+    "description": "Laravel Artisan Command to generate Laravel Languages files from a Google Spreadsheet",
+    "version": "1.0.0",
+    "keywords": ["laravel", "localization", "google", "spreadsheet" ,"artisan"],
+    "homepage": "https://github.com/mechastorm/laravel-lang-google-spreadsheet-importer",
+    "license" : "Apache-2.0",
     "authors": [
         {
             "name": "Shih Oon Liong",
-            "email": "github@mechastorm.com"
+            "email": "github@mechastorm.com",
+            "role": "Developer"
         }
     ],
     "require": {

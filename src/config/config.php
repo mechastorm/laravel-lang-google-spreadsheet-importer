@@ -89,7 +89,7 @@ return array(
         |
         */
         'worksheets' =>array(
-
+            'Worksheet 1', // Must match the exact display name of the worksheet on that google spreadsheet
         ),
     ),
 );
