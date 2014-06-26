@@ -1,6 +1,11 @@
 # Introduction
 
-A Laravel (4.1 and above) Artisan Command to generate Laravel Languages files from a Google Spreadsheet.
+A Laravel (4.1 and above) package in an artisan command, which generates Laravel Languages files from a Google Spreadsheet.
+
+It will
+
+- read data from a spreadsheet formatted like [this](https://docs.google.com/a/mechaloid.com/spreadsheets/d/1GFQQ0clQRrYEM8_N0vyHeIIWqQdxJlbDe588uf_vlkU/edit#gid=0)
+- outputs as Laravel Lang files like [these](https://github.com/mechastorm/google-spreadsheet-exporter/tree/master/examples/sample_output)
 
 This library serves to simply interface with the Laravel framework. The bulk of the actual work is being done by key dependecies.
 
@@ -9,7 +14,7 @@ This library serves to simply interface with the Laravel framework. The bulk of 
 - Laravel >4.1
 - PHP >5.4
 - Composer Dependencies
-    - [Google Spreadsheet Exporter](https://github.com/mechastorm/google-spreadsheet-exporter/blob/master/composer.json) - This is where the bulk of the logic lies. So majority of the documenation on the format of the spreadsheet and how it is being parse can be found there
+    - [Google Spreadsheet Exporter](https://github.com/mechastorm/google-spreadsheet-exporter) - This is where the bulk of the logic lies. So majority of the documenation on the format of the spreadsheet and how it is being parse can be found there
     - [Google Spreadsheet API Client](https://github.com/asimlqt/php-google-spreadsheet-client)
     - [The official Google Api Client](https://github.com/google/google-api-php-client)
 - A readable Google Spreadsheet
