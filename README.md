@@ -59,7 +59,8 @@ Create a composer.json file in your project and add the following:
     ],
     "require": {
         "mechastorm/laravel-lang-google-spreadsheet-importer": "1.*"
-    }
+    },
+    "minimum-stability" : "dev",
 }
 ```
 

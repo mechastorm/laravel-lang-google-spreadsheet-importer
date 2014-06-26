@@ -56,6 +56,7 @@ class LangGenerate extends Command {
             'access_token' => $accessToken,
             'spreadsheet_name' => $spreadsheetSettings['name']
         ));
+        $gSSExporter->setWorksheets();
 
         $transformer = new LocalePhpArray(array(
             'locales' => $spreadsheetSettings['locales']
