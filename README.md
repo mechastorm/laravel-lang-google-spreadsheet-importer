@@ -24,7 +24,7 @@ The aim is to
 * Reduce the dev cycle required when doing edits to copy text
 * Nicely handle multiple translations of a copy text
 
-Further background can be found under the [Google Spreadsheet Exporter](https://github.com/mechastorm/google-spreadsheet-exporter/blob/master/composer.json)
+Further background can be found under the [Google Spreadsheet Exporter](https://github.com/mechastorm/google-spreadsheet-exporter). Especially read up on setting up your Google API client credentials.
 
 # Todo
 
@@ -46,10 +46,6 @@ Create a composer.json file in your project and add the following:
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/mechastorm/laravel-lang-google-spreadsheet-importer"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/asimlqt/php-google-spreadsheet-client"
         },
         {
@@ -59,8 +55,7 @@ Create a composer.json file in your project and add the following:
     ],
     "require": {
         "mechastorm/laravel-lang-google-spreadsheet-importer": "1.*"
-    },
-    "minimum-stability" : "dev",
+    }
 }
 ```
 
@@ -88,10 +83,9 @@ It's recommended that you publish the packages configuration.
 php artisan config:publish mechastorm/laravel-lang-google-spreadsheet-importer
 ```
 
-You should open app/config/packages/mechastorm/laravel-lang-google-spreadsheet-importer/config.php and add in details on your spreadsheet and google api access.
+You should open app/config/packages/mechastorm/laravel-lang-google-spreadsheet-importer/config.php and add in details on your spreadsheet and google api access. For details on what/how to add these configs, go to this main [readme](https://github.com/mechastorm/google-spreadsheet-exporter) for more info especially on getting Google API credentials.
 
-It is strong recommended to do spearate configurations per environment.
-
+It is strong recommended to do separate configurations per environment.
 
 # Usage
 

@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "mechastorm/google-spreadsheet-exporter": "dev-master",
+        "mechastorm/google-spreadsheet-exporter": "1.*",
         "illuminate/support": "4.2.*"
     },
     "repositories": [
@@ -31,6 +31,5 @@
         "psr-0": {
             "Mechastorm\\LaravelLangGoogleSpreadsheetImporter\\": "src/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
